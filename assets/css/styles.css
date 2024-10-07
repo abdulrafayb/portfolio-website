@@ -206,6 +206,11 @@ body.dark-theme {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  /* background: linear-gradient(
+    180deg,
+    hsl(var(--hue), 90%, 80%),
+    hsl(var(--hue), 90%, 30%)
+  ); */
 }
 
 .prefil__img {
@@ -595,6 +600,11 @@ body.dark-theme {
   padding-bottom: 4rem;
 }
 
+.work__button {
+  margin-top: 4rem;
+  text-align: center;
+}
+
 /*=============== TESTIMONIAL ===============*/
 
 /* Swiper class */
@@ -865,7 +875,7 @@ body.dark-theme {
 
   .nav {
     height: calc(var(--header-height) + 2rem);
-    column-gap: 3rem;
+    /* column-gap: 3rem; */
   }
 
   .nav__toggle,
